@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding : 5px 15% 5px 15%;
+
+}
+.logo{
+    align-self: center;
+    color: white;
+    font-size: 24px;
+
+}
+header ul{
+    list-style-type: none;
+    overflow: hidden;
+    color : white;
+    margin: 0px ;
+    padding: 0px;
+}
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+li a:hover{
+    color: aqua;
+}
+.heroParent{
+    background-color: #1F2937;
+}
+.hero{
+    width: fit-content;
+    display: flex;
+    gap : 30px;
+    padding : 85px 15% 85px 15%;
+}
+.hero .heroTxt{
+    flex-grow: 1; 
+    display: flex;
+    gap : 5px;
+    flex-direction: column;
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+.heroTxt .heroTitle{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.heroTxt button{
+    background-color: #3B82F6;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    color: #e5e7eb;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.heroImg img{
+    flex-basis: 100%;
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+.info{
+    padding : 50px 15% 100px 15%;
+    text-align: center;
+}
+.info .infoTxt{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 700;
+}
+.info .infoColumns{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 400;
+}
+.infoColumns img{
+    max-width: 200px;
+    height: auto;
+
+}
+.quote{
+    background-color: #e5e7eb;
+}
+.quote .quoteTxt{
+    flex: column;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+.quote .quoteauthorName{
+    justify-content: end;    
+}
